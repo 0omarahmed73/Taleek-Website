@@ -326,7 +326,7 @@ header {
 }
 
 /* Opinions */
-.opinion .container {
+.opinion .container-fluid {
     position: relative;
     user-select: none;
     scroll-behavior :smooth;
@@ -479,6 +479,13 @@ footer .button-bottom {
         width: 50px;
     
     }
+   
+}
+@media (max-width : 992px) {
+
+    .cardopinioncont {
+        overflow-x: hidden;
+    }
     
 }
 
@@ -545,6 +552,7 @@ footer .button-bottom {
     }
     .firstlinks ,.secondlinks {
     }
+    
 }
 
 @media (max-width : 550px) {
@@ -579,7 +587,12 @@ footer .button-bottom {
 
 
   
-@media (max-width : 480px){
-    .firstlinks ,.secondlinks {
+@media (max-width : 380px){
+    .stars {
+        margin-left: -21px;
+       }
+       .stars svg {
+        height: 15px;
+        margin-right: -15px;
     }
 }
