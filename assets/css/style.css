@@ -573,13 +573,13 @@ footer .button-bottom {
 .cards3 p { 
     padding-left: 0;
    }
-   .stars {
+   /* .stars {
     margin-left: -10px;
    }
    .stars svg {
     height: 15px;
     margin-right: -12px;
-}
+} */
 .firstlinks ,.secondlinks {
 }
 }
@@ -592,7 +592,7 @@ footer .button-bottom {
         margin-left: -21px;
        }
        .stars svg {
-        height: 15px;
-        margin-right: -15px;
+        height: 16px;
+        margin-right: -13px;
     }
 }
